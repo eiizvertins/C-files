@@ -1,7 +1,7 @@
 /******************************************************
 Program that prompts the user for a credit card number
 and then returns whether it is a valid American Express,
-MasterCard, or Visa card number using Luhn’s Algorithm.
+MasterCard, or Visa card number using Luhnâ€™s Algorithm.
 // Author: R.J.Eizvertins
 ******************************************************/
 
@@ -47,12 +47,12 @@ int main()
 }
 
 /*
-Luhn’s Algorithm
+Luhnâ€™s Algorithm
 Determines if a credit card number is valid.
 1. Multiplying every other digit by 2, starting with the
-number’s second-to-last digit, and then add those products’
+numberâ€™s second-to-last digit, and then add those productsâ€™
 digits together.
-2. Adding the sum to the sum of the digits that weren’t multiplied by 2.
+2. Adding the sum to the sum of the digits that werenâ€™t multiplied by 2.
 3. If the total modulo 10 is congruent to 0 the number is valid!
 */
 bool luhns_algorithm(long long c, int count){
